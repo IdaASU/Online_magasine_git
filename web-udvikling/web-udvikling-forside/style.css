@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+head {
+    color: #306c61;
+}
+
+body {
+    font-family: "Oswald";
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content {
+    background-color: #f7eef5;
+    padding: 4%;
+}
+
+nav {
+
+    background-color: #110f0f87;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bod {
+    display:flex;
+    justify-content: center;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+nav li {
+    height: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+nav a {
+    height: 100%;
+    padding: 0px 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.begonia-nav {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+}
+
+.search-icon {
+    width: auto;
+    height: 30px;
+    margin-top: 9px;
+}
+
+.planteliv {
+    color:#306c61;
+    font-size: 30px;
+    margin-left: 0.5rem;
+    width: auto;
+    height: inherit;
+}
+
+.begonia-forside {
+    float:right;
+    width: 439px;
+    height: auto;
+    padding-right: 55px;
+    padding-top: 55px;
+}
+
+
+section {
+    font-size: medium;
+}
+
+.pictures {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.image-with-plante{
+    width: 50%;
+    margin-left: -7rem;
+}
+
+.image-with-halvsol{
+    width: 50%;
+}
+
+.image-with-billig {
+    width: 55%;
+}
+
+.image-with-cat {
+    width:195%;
+    margin-left: 22rem;
+
+}
+
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo {
+    height: 100%;
+    padding: 0 !important;
+    color: black;
+    margin-left: -2rem;
+}

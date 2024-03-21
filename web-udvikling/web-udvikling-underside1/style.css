@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+head {
+    color:#306c61;
+}
+
+body {
+    font-family:"Oswald";
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.content {
+    background-color: #f7eef5;
+    padding: 2%;
+}
+nav {
+    
+    background-color: #110f0f87;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+nav li {
+    height: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.search-iconos {
+    width: auto;
+    height: 30px;
+    margin-top: 9px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0px 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.begonia-nav{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    width: auto;
+    height: inherit;
+}
+
+.begonia-nav-nav{
+    color:#306c61;
+    font-size: 30px;
+    margin-left: 0.5rem;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+}
+
+.gode-tips {
+    color:#306c61;
+    font-size: 70px;
+}
+
+.row {
+    display: flex;
+    margin-left: 40px;
+  }
+  
+  .column {
+    flex: left;
+    width: 25%;
+    padding: 5px;
+
+  }
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  
+  .logo{
+    height: 100%;
+    padding: 0 !important;
+    color: black;
+    margin-left: -2rem;
+  }
