@@ -1,31 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 head {
-    color:#306c61;
+    color: #306c61;
 }
 
 body {
-    font-family:"Oswald";
+    font-family: "Oswald";
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 5%;
     margin-right: 5%;
 }
-.content{
-    background-color:#f7eef5;
+
+.content {
+    background-color: #f7eef5;
     padding: 4%;
 }
 
 .basis-viden {
-    color:#306c61;
+    color: #306c61;
     font-size: 70px;
 }
 
 nav {
-    
+
     background-color: #110f0f87;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -58,14 +59,14 @@ nav a {
     color: black;
 }
 
-.begonia-nav{
+.begonia-nav {
     width: 46px;
     height: 46px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
 
-    color:#306c61;
+    color: #306c61;
     font-size: 30px;
     margin-left: 0.5rem;
 }
@@ -75,23 +76,30 @@ nav a:hover {
 }
 
 
-
 .row {
     display: flex;
     clear: both;
     display: table;
-  }
-  
-  .column {
-    float:left;
-    width:25%;
-    padding: 5px;
-   
-  }
+}
 
-  .logo{
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+
+}
+
+.column-one{
+    min-height: 6px;
+}
+
+.column-two{
+    min-height: 6px;
+}
+
+.logo {
     height: 100%;
     padding: 0 !important;
-    color:black;
+    color: black;
     margin-left: -2rem;
-  }
+}
