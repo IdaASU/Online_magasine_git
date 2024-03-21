@@ -83,17 +83,24 @@ nav a:hover {
     font-size: 70px;
 }
 
-.row {
+.row-content {
     display: flex;
-    margin-left: 40px;
-  }
+}
   
-  .column {
-    flex: left;
-    width: 25%;
-    padding: 5px;
 
-  }
+  .column{
+    text-wrap: wrap;
+    width: 40%;
+}
+
+.space-content {
+    width:20%;
+}
+
+.row-space{
+    height: 20%;
+}
+
   .left {
     width: 50%;
   }

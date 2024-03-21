@@ -86,8 +86,6 @@ nav a:hover {
 
 .row {
     display: flex;
-    clear: both;
-    display: table;
 }
 
 .column {
@@ -97,12 +95,13 @@ nav a:hover {
 
 }
 
-.column-one{
-    min-height: 6px;
+.col-content{
+    text-wrap: wrap;
+    width: 40%;
 }
 
-.column-two{
-    min-height: 6px;
+.col-space{
+    width: 20%;
 }
 
 .logo {
