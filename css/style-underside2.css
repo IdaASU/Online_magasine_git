@@ -44,7 +44,7 @@ nav li {
     margin-right: 1rem;
 }
 
-.search-icono {
+.search-icon{
     width: auto;
     height: 30px;
     margin-top: 9px;
@@ -75,6 +75,14 @@ nav a:hover {
     background-color: #f0f0f0;
 }
 
+.planteliv {
+    color:#306c61;
+    font-size: 30px;
+    margin-left: 0.5rem;
+    width: auto;
+    height: inherit;
+}
+
 
 .row {
     display: flex;
@@ -102,4 +110,9 @@ nav a:hover {
     padding: 0 !important;
     color: black;
     margin-left: -2rem;
+}
+.search-icon {
+    width: auto;
+    height: 30px;
+    margin-top: 9px;
 }

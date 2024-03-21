@@ -13,7 +13,7 @@ body {
 }
 .content {
     background-color: #f7eef5;
-    padding: 2%;
+    padding: 4%;
 }
 nav {
     
@@ -35,7 +35,7 @@ nav li {
     margin-right: 1rem;
 }
 
-.search-iconos {
+.search-icon {
     width: auto;
     height: 30px;
     margin-top: 9px;
@@ -68,6 +68,14 @@ nav a {
 
 nav a:hover {
     background-color: #f0f0f0;
+}
+
+.planteliv {
+    color:#306c61;
+    font-size: 30px;
+    margin-left: 0.5rem;
+    width: auto;
+    height: inherit;
 }
 
 .gode-tips {
