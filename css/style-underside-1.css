@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+/*i have changed the color of my head*/
 head {
     color:#306c61;
 }
@@ -15,6 +16,7 @@ body {
     background-color: #f7eef5;
     padding: 4%;
 }
+/*all of this is my navbar*/
 nav {
     
     background-color: #110f0f87;
@@ -78,6 +80,15 @@ nav a:hover {
     height: inherit;
 }
 
+.logo{
+    height: 100%;
+    padding: 0 !important;
+    color: black;
+    margin-left: -2rem;
+  }
+/*end of navbar*/
+
+/*this is where my heads and paragraphs is*/
 .gode-tips {
     color:#306c61;
     font-size: 70px;
@@ -109,9 +120,3 @@ nav a:hover {
     width: 50%;
   }
   
-  .logo{
-    height: 100%;
-    padding: 0 !important;
-    color: black;
-    margin-left: -2rem;
-  }

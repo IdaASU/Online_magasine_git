@@ -21,7 +21,7 @@ body {
     color: #306c61;
     font-size: 70px;
 }
-
+/*all of this is my navbar*/
 nav {
 
     background-color: #110f0f87;
@@ -83,7 +83,20 @@ nav a:hover {
     height: inherit;
 }
 
+.logo {
+    height: 100%;
+    padding: 0 !important;
+    color: black;
+    margin-left: -2rem;
+}
+.search-icon {
+    width: auto;
+    height: 30px;
+    margin-top: 9px;
+}
+/*end of navbar*/
 
+/*this is the paragraphs*/
 .row {
     display: flex;
 }
@@ -102,16 +115,4 @@ nav a:hover {
 
 .col-space{
     width: 20%;
-}
-
-.logo {
-    height: 100%;
-    padding: 0 !important;
-    color: black;
-    margin-left: -2rem;
-}
-.search-icon {
-    width: auto;
-    height: 30px;
-    margin-top: 9px;
 }

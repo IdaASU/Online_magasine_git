@@ -17,14 +17,14 @@ body {
     padding: 4%;
 }
 
+/*all of this is my navbar*/
 nav {
-
     background-color: #110f0f87;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-bod {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -34,7 +34,6 @@ nav ul {
     display: flex;
     justify-content: flex-start;
 }
-
 
 nav li {
     height: 50px;
@@ -70,22 +69,32 @@ nav a:hover {
 }
 
 .planteliv {
-    color:#306c61;
+    color: #306c61;
     font-size: 30px;
     margin-left: 0.5rem;
     width: auto;
     height: inherit;
 }
 
+.logo {
+    height: 100%;
+    padding: 0 !important;
+    color: black;
+    margin-left: -2rem;
+}
+
+/*end of navbar*/
+
+/*the picture on the page*/
 .begonia-forside {
-    float:right;
+    float: right;
     width: 439px;
     height: auto;
     padding-right: 55px;
     padding-top: 55px;
 }
 
-
+/*this contains my h4 and paragraphs*/
 section {
     font-size: medium;
 }
@@ -94,6 +103,7 @@ section {
     font-size: 2rem;
 }
 
+/*this is the pictures on the bottom of my page*/
 .pictures {
     text-align: center;
     margin-left: 40px;
@@ -101,12 +111,12 @@ section {
     margin-top: 12rem;
 }
 
-.image-with-plante{
+.image-with-plante {
     width: 50%;
     margin-left: -7rem;
 }
 
-.image-with-halvsol{
+.image-with-halvsol {
     width: 50%;
 }
 
@@ -115,12 +125,11 @@ section {
 }
 
 .image-with-cat {
-    width:53%;
+    width: 53%;
 
 }
 
-
-
+/*i have used columns and rows to make it easier to align the pictures*/
 .column {
     float: left;
     width: 25%;
@@ -131,11 +140,4 @@ section {
     content: "";
     clear: both;
     display: table;
-}
-
-.logo {
-    height: 100%;
-    padding: 0 !important;
-    color: black;
-    margin-left: -2rem;
 }
