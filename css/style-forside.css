@@ -90,10 +90,15 @@ section {
     font-size: medium;
 }
 
+.forside h4 {
+    font-size: 2rem;
+}
+
 .pictures {
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 12rem;
 }
 
 .image-with-plante{
@@ -110,8 +115,7 @@ section {
 }
 
 .image-with-cat {
-    width:195%;
-    margin-left: 22rem;
+    width:53%;
 
 }
 

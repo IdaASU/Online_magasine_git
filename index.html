@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--This is my header. Here is a short description of my site and a link to the same site. 
+    There's also the viewport which decides what area the the content can be seen in the window-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planteliv</title>
+    <title>Planteliv - din guide til planter</title>
     <link rel="stylesheet" href="css/style-forside.css">
 </head>
 
+<!--This is my body where all the content for the site is-->
 <body>
+    <!--this is my navbar which you can click on when on the site, and it will navigate you to a subpage-->
     <nav style="display:flex; justify-content: center;">
         <ul>
             <li>
                 <a class="logo" href="/">
-                    <img src="img/Begonia.nav.png" style="width: auto; height: inherit;">
+                    <img src="img/Begonia.nav.png" alt="Begonia-Tegning" style="width: auto; height: inherit;">
                     <span class="planteliv">Planteliv</span>
                 </a>
             </li>
             <li class="hideOnMobile">
                 <a href="gode-tips.html">Gode tips</a>
             </li>
-            <li class="hideOnMobile"><a href="basis-viden.html">Basis viden</a></li>
-            <li class="hideOnMobile"><a href="#">Find din Plante</a></li>
-            <li class="hideOnMobile"><a href="#">Dyr og planter</a></li>
-            <li class="hideOnMobile"><a href="#">Planter på budget</a></li>
+            <li ><a href="#">Planter på budget</a></li>
+            <li ><a href="#">Find din Plante</a></li>
+            <li ><a href="basis-viden.html">Basis viden</a></li>
+            <li ><a href="#">Dyr og planter</a></li>
             <li>
-                <img src="img/search-icon-2048x2048-4r9dtbbw copy.png" class="search-icon" >
+                <img src="img/search-icon-2048x2048-4r9dtbbw.png" alt="Search-icon" class="search-icon">
             </li>
         </ul>
     </nav>
@@ -33,41 +37,39 @@
 
         <img src="img/5315061d8478ba35b6e147263d2cb880.jpg" alt="begonia" class="begonia-forside">
 
-
+<!--This i my main, where all my text is. Both my header and paragraphs is found here -->
         <main>
-            <h1 style="color:#306c61; font-size: 70px;">Velkommen til<br>Planteliv</h1>
+            <h1 style="color:#306c61; font-size: 70px;">Velkommen til Planteliv</h1>
         </main>
-        <section>
-            <h4>Den komplicerede jungel</h4>
-            <p>Vi kender alle sammen glæden ved at købe en ny plante, <br>men også hele forløbet af trials and errors
+        <section class="forside">
+            <h4>Den komplicerede jungle </h4>
+            <p>Vi kender alle sammen glæden ved at købe en ny plante, men også hele forløbet af trials and errors
                 som
                 der medfølger. </p>
-            <br>
-            <p>Hvor meget sollys? Hvor meget vand? Skal jeg skifte<br> jordet ud, eller give den gødning? </p>
-            <br>
-            <p>Eller måske starter junglen allerede for dig når du<br> skal til at vælge din plante.</p>
-            <br>
-            <p>Det er her jeg spiller ind. Jeg vil guide dig, give den<br> rette information og ikke mindst, hjælpe dig
-                med
-                at<br> kunne være tilfreds når du kigger på dine planter.</p>
+            <p>Hvor meget sollys? Hvor meget vand? Skal jeg skifte jordet ud, eller give den gødning? </p>
+            <p>Eller måske starter junglen allerede for dig når du skal til at vælge din plante.</p>
+            <p>Det er her jeg spiller ind. Jeg vil guide dig, give den rette information og ikke mindst, hjælpe dig
+                med at kunne være tilfreds når du kigger på dine planter.</p>
         </section>
-        <br>
-        <br>
-        <br>
+        
+        
+<!--This is section where the pictures is, they are placed in columns and rows 
+    and when you click on them they would direct you to the subtage that's relevant to it (The one with the cat didn't want to cooperate when alligned)--> 
         <section class="pictures">
             <div class="row">
                 <div class="column">
-                    <img src="img/Skærmbillede 2024-03-19 kl. 14.08.38.png" alt="plante" class="image-with-plante">
+                    <img src="img/Skærmbillede2024-03-19kl.14.08.38.png" alt="plante" class="image-with-plante">
                 </div>
                 <div class="column">
-                    <img src="img/Skærmbillede 2024-03-19 kl. 18.21.17.png" alt="halvsol" class="image-with-halvsol">
+                    <a href="basis-viden.html"><img src="img/Skærmbillede2024-03-19kl.18.21.17.png" alt="halvsol" class="image-with-halvsol"></a>
                 </div>
                 <div class="column">
-                    <img src="img/Skærmbillede 2024-03-19 kl. 18.21.44.png" alt="billig" class="image-with-billig">
-                    <div class="column">
-                        <img src="img/Skærmbillede 2024-03-19 kl. 14.09.53.png" alt="kat" class="image-with-cat">
-                    </div>
+                    <img src="img/Skærmbillede2024-03-19kl.18.21.44.png" alt="billig" class="image-with-billig">
                 </div>
+                <div class="column">
+                    <img src="img/Skærmbillede2024-03-19kl.14.09.53.png" alt="kat" class="image-with-cat">
+                </div>
+            </div>
         </section>
     </div>
 </body>
